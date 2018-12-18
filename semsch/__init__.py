@@ -5,3 +5,6 @@
 __author__ = """Micah Smith"""
 __email__ = 'micahjsmith@gmail.com'
 __version__ = '0.1.0'
+
+
+from .models import Author, Paper
