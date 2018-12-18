@@ -1,9 +1,14 @@
-[![][pypi-img]][pypi-url] [![][travis-img]][travis-url]
+<!-- [![][pypi-img]][pypi-url] [![][travis-img]][travis-url] -->
 
-# Semantic Scholar API Client
+# pysemanticscholar
 
+*This library is under active development and is likely to have bugs*
 
-Semantic Scholar Python API Client
+Python client for [Semantic Scholar API](https://api.semanticscholar.org/).
+
+The Semantic Scholar API provides "lightweight" programmatic access to author and paper
+information. If you want a large dataset, then please be considerate and use their freely
+available archive directly rather than hitting their API repeatedly.
 
 - Free software: MIT license
 - Documentation: https://micahjsmith.github.io/pysemanticscholar
