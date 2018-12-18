@@ -68,7 +68,7 @@ setup(
     description="Semantic Scholar Python API Client",
     entry_points={
         'console_scripts': [
-            'semsch=semsch.cli:main',
+            'semanticscholar=semanticscholar.cli:main',
         ],
     },
     extras_require={
@@ -80,14 +80,14 @@ setup(
     long_description=readme + '\n\n' + history,
     long_description_content_type='text/markdown',
     include_package_data=True,
-    keywords='semsch',
-    name='semsch',
-    packages=find_packages(include=['semsch', 'semsch.*']),
+    keywords='semanticscholar',
+    name='pysemanticscholar',
+    packages=find_packages(include=['semanticscholar', 'semanticscholar.*']),
     python_requires='>=3.4',
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/micahjsmith/semsch',
+    url='https://github.com/micahjsmith/pysemanticscholar',
     version='0.1.0',
     zip_safe=False,
 )

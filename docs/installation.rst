@@ -5,22 +5,25 @@ Installation
 ============
 
 
-Stable release
---------------
+..
+   _comment:
 
-To install Semantic Scholar API Client, run this command in your terminal:
+    Stable release
+    --------------
 
-.. code-block:: console
+    To install Semantic Scholar API Client, run this command in your terminal:
 
-    $ pip install semsch
+    .. code-block:: console
 
-This is the preferred method to install Semantic Scholar API Client, as it will always install the most recent stable release.
+        $ pip install pysemanticscholar
 
-If you don't have `pip`_ installed, this `Python installation guide`_ can guide
-you through the process.
+    This is the preferred method to install Semantic Scholar API Client, as it will always install the most recent stable release.
 
-.. _pip: https://pip.pypa.io
-.. _Python installation guide: http://docs.python-guide.org/en/latest/starting/installation/
+    If you don't have `pip`_ installed, this `Python installation guide`_ can guide
+    you through the process.
+
+    .. _pip: https://pip.pypa.io
+    .. _Python installation guide: http://docs.python-guide.org/en/latest/starting/installation/
 
 
 From sources
@@ -32,13 +35,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/micahjsmith/semsch
+    $ git clone git://github.com/micahjsmith/semanticscholar
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/micahjsmith/semsch/tarball/master
+    $ curl  -OL https://github.com/micahjsmith/pysemanticscholar/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +50,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/micahjsmith/semsch
-.. _tarball: https://github.com/micahjsmith/semsch/tarball/master
+.. _Github repo: https://github.com/micahjsmith/pysemanticscholar
+.. _tarball: https://github.com/micahjsmith/pysemanticscholar/tarball/master

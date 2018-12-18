@@ -56,13 +56,13 @@ clean-test: ## remove test and coverage artifacts
 
 .PHONY: lint
 lint: ## check style with flake8 and isort
-	flake8 semsch tests
-	isort -c --recursive semsch tests
+	flake8 semanticscholar tests
+	isort -c --recursive semanticscholar tests
 
 .PHONY: fix-lint
 fix-lint: ## fix lint issues using autopep8 and isort
-	autopep8 --in-place --recursive --aggressive semsch tests
-	isort --apply --atomic --recursive semsch tests
+	autopep8 --in-place --recursive --aggressive semanticscholar tests
+	isort --apply --atomic --recursive semanticscholar tests
 
 .PHONY: test
 test: ## run tests quickly with the default Python
@@ -86,7 +86,7 @@ clean-docs: ## remove previously built docs
 
 .PHONY: docs
 docs: clean-docs ## generate Sphinx HTML documentation, including API docs
-	sphinx-apidoc --module-first --separate -o docs/api/ semsch
+	sphinx-apidoc --module-first --separate -o docs/api/ semanticscholar
 	$(MAKE) -C docs html
 
 .PHONY: view-docs

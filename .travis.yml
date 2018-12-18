@@ -26,14 +26,14 @@ deploy:
       secure: PLEASE_REPLACE_ME
     on:
       tags: true
-      repo: micahjsmith/semsch
+      repo: micahjsmith/pysemanticscholar
       python: 3.6
 
   # Automatically build and deploy documentation to GitHub Pages after every
   # commit
   # Follow the instructions at https://docs.travis-ci.com/user/deployment/pages/
   # to setup a personal deployment token and then provide it as a secure
-  # environment variable at https://travis-ci.org/micahjsmith/semsch/settings
+  # environment variable at https://travis-ci.org/micahjsmith/pysemanticscholar/settings
   - provider: pages
     skip-cleanup: true
     github-token: "$GITHUB_TOKEN"

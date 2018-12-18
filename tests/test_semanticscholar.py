@@ -1,14 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Tests for `semsch` package."""
+"""Tests for `semanticscholar` package."""
 
 import unittest
 from unittest.mock import patch
 from click.testing import CliRunner
 
-from semsch import Author, Paper
-from semsch import cli
+from semanticscholar import Author, Paper
+from semanticscholar import cli
 
 
 class TestModels(unittest.TestCase):
@@ -91,7 +91,7 @@ class TestCli(unittest.TestCase):
         runner = CliRunner()
         result = runner.invoke(cli.main)
         assert result.exit_code == 0
-        assert 'semsch.cli.main' in result.output
+        assert 'semanticscholar.cli.main' in result.output
         help_result = runner.invoke(cli.main, ['--help'])
         assert help_result.exit_code == 0
         assert '--help  Show this message and exit.' in help_result.output
